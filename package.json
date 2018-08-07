@@ -1,0 +1,22 @@
+{
+  "name": "react-wired-element",
+  "version": "0.5.0",
+  "description": "A UI component library based on wired-elements for React",
+  "scripts": {
+    "example": "parcel example/index.html",
+    "build": "tsc"
+  },
+  "author": "sammyliang",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.4.8",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "wired-elements": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.0.7",
+    "parcel-bundler": "^1.9.7",
+    "typescript": "^3.0.1"
+  }
+}
