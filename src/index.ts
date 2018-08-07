@@ -25,7 +25,7 @@ type WIRED_ELEMENT_LIST =
     ;
 
 
-const wiredComponentCreator = <P>(element: WIRED_ELEMENT_LIST) => (props: P & { children?: ReactNode }) => React.createElement<ClassAttributes<P>>(
+const wiredComponentCreator = <P>(element: WIRED_ELEMENT_LIST) => (props: P & { children?: ReactNode } & { [key: string]: any }) => React.createElement<ClassAttributes<P>>(
     element,
     props,
     props.children

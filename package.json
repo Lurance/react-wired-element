@@ -1,6 +1,6 @@
 {
   "name": "react-wired-element",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A UI component library based on wired-elements for React",
   "scripts": {
     "example": "parcel example/index.html",
