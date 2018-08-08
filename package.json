@@ -1,11 +1,12 @@
 {
   "name": "react-wired-element",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "A UI component library based on wired-elements for React",
   "scripts": {
     "example": "parcel example/index.html",
     "build": "tsc"
   },
+  "repository": "https://github.com/Lurance/react-wired-element",
   "author": "sammyliang",
   "license": "MIT",
   "dependencies": {
